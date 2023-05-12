@@ -1,5 +1,5 @@
 {
-  "name": "react-app",
+  "name": "my-react-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^5.0.0",
