@@ -13,7 +13,7 @@ export default function Forms() {
     favColor:""
   });
  
-  function handleChange(event){ 
+  function handleChange(event: any){ 
     const {name, value, type, checked} = event.target;
     setFormData(prevFormData => {
       console.log(checked);
@@ -27,7 +27,7 @@ export default function Forms() {
 
   }
 
-  function handleSubmit(event){
+  function handleSubmit(event: any){
     event.preventDefault();
     console.log(formData);
   }
