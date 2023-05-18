@@ -9,6 +9,8 @@ import Home from './pages/Home';
 import "./App.css";
 import WindowTracker from './pages/window-tracker';
 import ApiIntegration from './pages/ApiIntegration';
+import ReducerHook from './pages/reducer';
+import LifeCycleComponent from './pages/LIfeCycle';
 export default function MyApp() {
 
  
@@ -22,6 +24,8 @@ export default function MyApp() {
           <Route path="window-tracker" element={<WindowTracker />} />
           <Route path='forms' element={<Forms />} />
           <Route path='api-integration' element={<ApiIntegration />} />
+          <Route path='reducer' element={<ReducerHook />} />
+          <Route path='life-cycle' element={<LifeCycleComponent />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
