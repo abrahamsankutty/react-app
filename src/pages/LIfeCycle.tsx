@@ -5,7 +5,7 @@ import { Component } from 'react';
 
 class LifeCycleComponent extends Component {
 
-    constructor(props){
+    constructor(props:any){
         super(props);
         this.state = {
             data: 'My name is Abraham'
