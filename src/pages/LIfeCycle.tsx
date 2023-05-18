@@ -21,7 +21,7 @@ class LifeCycleComponent extends Component {
             return(
                 <div>
                     <div >
-                        <input type="text" value={this.state.data} />
+                        {/* <input type="text" value={this.state.props}  /> */} 
                         <br></br> <br></br>
                         <button onClick={this.handleEvent}>Please Click</button>
                     </div>
