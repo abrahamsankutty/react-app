@@ -23,6 +23,9 @@ const Layout = ()=> {
                     <li>
                         <Link to="/life-cycle">Life cycle</Link>
                     </li>
+                    <li>
+                        <Link to="/use-query">UseQueryComponent</Link>
+                    </li>
                 </ul>
             </nav>
             <Outlet />
